@@ -3,12 +3,12 @@ name = "led-portable"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
     "easydict>=1.13",
     "glob2>=0.7",
     "pyyaml>=6.0.3",
-    "torch==1.12",
-    "torchaudio>=0.12.0",
-    "torchvision>=0.13.0",
+    "torch>=2.9.0",
+    "torchaudio>=2.9.0",
+    "torchvision>=0.24.0",
 ]
